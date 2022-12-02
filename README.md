@@ -29,7 +29,7 @@ As there is a linear progression, matrix-vector multiplication has a time comple
 
 # Instructions for checking space complexity
 
-In the main_b_space.c files is a "forever" loop using while(1). By running it using 'make space', these files are executed 3 times each with different input values (n = 1250 (top), n = 1000, n = 750, n = 500, n = 250 (bottom)).
+In the main_b_space.c files is a "forever" loop using while(1). The forever loop only contains the function which does the multiplication operation between the matrix and the vector. By running it using 'make space', these files are executed 3 times each with different input values (n = 1250 (top), n = 1000, n = 750, n = 500, n = 250 (bottom)).
 I get these processes in the task manager:
 
 ![matrix vect mult space](https://user-images.githubusercontent.com/114067350/205203900-ccef1aec-d485-4d9e-884d-7ccfab22c95b.PNG)
