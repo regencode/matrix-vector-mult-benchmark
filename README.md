@@ -42,3 +42,4 @@ And therefore we get this graph:
 ![space complex](https://user-images.githubusercontent.com/114067350/205204474-52ee88e6-81b2-43fd-a488-85049b28eabf.PNG)
 
 From this graph, we can conclude that my algorithm for matrix-vector multiplication has a space complexity of O(n^2)
+The actual space complexity for matrix-vector multiplication is O(n), but since my program has to store the values of matrix, vector and the result as arrays, the space complexity is higher.
