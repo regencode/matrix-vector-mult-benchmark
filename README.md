@@ -41,4 +41,4 @@ And therefore we get this graph:
 
 ![space complex](https://user-images.githubusercontent.com/114067350/205204474-52ee88e6-81b2-43fd-a488-85049b28eabf.PNG)
 
-From this graph, we can conclude that matrix-vector multiplication has a space complexity of O(n^2)
+From this graph, we can conclude that my algorithm for matrix-vector multiplication has a space complexity of O(n^2)
