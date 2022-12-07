@@ -22,10 +22,10 @@ Available Makefile commands:
 Copy all the values from the Magnified.dat files (delete the last comma) and paste it in desmos.com. A scatter plot graph will be generated that shows the shape of the runtime against step-number curve.
     
 By running "make time", and extracting the data from the magnified.dat files, this is the scatter plot that I got (I drew a line to show that there is a linear progression):
+![mat vec mult time](https://user-images.githubusercontent.com/114067350/206201175-b93a0d57-c75c-4d69-9026-f44d6c78221a.PNG)
 
-![matrix vect mult](https://user-images.githubusercontent.com/114067350/205201511-421a2205-f792-4c7b-b24b-9020e5c9a4da.PNG)
 
-As there is a linear progression, matrix-vector multiplication has a time complexity of O(n).
+From the graph we can conclude that the algorithm has a time complexity of O(n^2).
 
 # Instructions for checking space complexity
 
@@ -41,5 +41,5 @@ And therefore we get this graph:
 
 ![space complex](https://user-images.githubusercontent.com/114067350/205204474-52ee88e6-81b2-43fd-a488-85049b28eabf.PNG)
 
-From this graph, we can conclude that my algorithm for matrix-vector multiplication has a space complexity of O(n^2).
+From this graph, we can conclude that the algorithm for matrix-vector multiplication has a space complexity of O(n^2).
 The actual space complexity for matrix-vector multiplication is O(n), but since my program has to store the values of matrix, vector and the result as arrays, the space complexity is higher as increasing values of N makes the memory assigned to those arrays increasingly significant.
