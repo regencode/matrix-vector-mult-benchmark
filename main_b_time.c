@@ -14,7 +14,7 @@ FILE *fp, *fp2;
 
 int main(){
 
-    int N = 10000;
+    int N = 6000;
 
     int *matrix = (int *) malloc(N*N*sizeof(int));
     int *vector = (int *) malloc(N*sizeof(int));
