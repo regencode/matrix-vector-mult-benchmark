@@ -8,9 +8,9 @@ int main(){
     printf("Enter N:\n");
     scanf("%d", &N);
 
-    int matrix[N*N];
-    int vector[N];
-    int result[N];
+    int *matrix = (int *) malloc(N*N*sizeof(int));
+    int *vector = (int *) malloc(N*sizeof(int));
+    int *result = (int *) malloc(N*sizeof(int));
 
     initMat(matrix, N);
     initVec(vector, N);
