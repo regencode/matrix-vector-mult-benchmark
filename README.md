@@ -21,7 +21,7 @@ Available Makefile commands:
   
 Copy all the values from the Magnified.dat files (delete the last comma) and paste it in desmos.com. A scatter plot graph will be generated that shows the shape of the runtime against step-number curve.
     
-By running "make time", and extracting the data from the magnified.dat files, this is the scatter plot that I got (I drew a line to show that there is a linear progression):
+By running "make time", and extracting the data from the magnified.dat files, this is the scatter plot that I got (I drew a line to show that there is a exponential progression):
 ![mat vec mult time](https://user-images.githubusercontent.com/114067350/206201175-b93a0d57-c75c-4d69-9026-f44d6c78221a.PNG)
 
 
